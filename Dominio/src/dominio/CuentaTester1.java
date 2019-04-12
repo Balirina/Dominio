@@ -1,14 +1,34 @@
 package dominio;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class CuentaTester1 {
+import junit.framework.TestCase;
 
-	@Test
-	void test() {
-		fail("Not yet implemented");
+class CuentaTester1 extends TestCase {
+
+	/**
+	 * @author Balirina
+	 */
+	public void tearDown() throws Exception
+	{
+		
+	}
+	
+	/**
+	 * @author Balirina
+	 */
+	public void testIngresar1000()
+	{
+		
+	}
+	
+	/**
+	 * @author Balirina
+	 */
+	public void testRetirar1000()
+	{
+		
 	}
 
 }

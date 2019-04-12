@@ -1,14 +1,26 @@
 package dominio;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
 
 class CreditoTester1 {
 
-	@Test
-	void test() {
-		fail("Not yet implemented");
+
+	/**
+	 * @author Balirina
+	 */
+	public void tearDown() throws Exception
+	{
+		
 	}
+	
+	/**
+	 * @author Balirina
+	 */
+	public void testIngresar500()
+	{
+		
+	}
+	
+
 
 }
