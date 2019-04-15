@@ -1,26 +1,57 @@
 package dominio;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class CuentaTester1 {
+import junit.framework.TestCase;
 
+class CuentaTester1 extends TestCase 
+{
+	Cuenta cuenta;
 	
-	public CuentaTester1(String sTestName)
+
+	/**
+	 * @author Nerea
+	 */
+	public CuentaTester1(String TestName)
 	{
-		super(sTestName);
+		super(TestName);
 	}
+	
+	/**
+	 * @author Nerea
+	 */
 	
 	public void setUp() throws Exception
 	{
 		cuenta= new Cuenta("0001.0002.12.1234567890","Fulano de Tal");
 	
 	}
+
 	
-	@Test
-	void test() {
-		fail("Not yet implemented");
+	/**
+	 * @author Balirina
+	 */
+	public void tearDown() throws Exception
+	{
+		
+	}
+	
+	/**
+	 * @author Balirina
+	 */
+	public void testIngresar1000()
+	{
+		
+	}
+	
+	/**
+	 * @author Balirina
+	 */
+	public void testRetirar1000()
+	{
+		
+
 	}
 
 }

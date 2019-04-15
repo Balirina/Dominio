@@ -4,7 +4,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class TarjetaTester1 extends TestCase {
+import junit.framework.TestCase;
+
+class TarjetaTester1 extends TestCase 
+{
 	
 	public TarjetaTester1(String sTestName)
 	{
@@ -13,7 +16,7 @@ class TarjetaTester1 extends TestCase {
 	
    public abstract Tarjeta getTarjetaObtenida();
    
-   public abastract Tarjeta prepararTarjetaEsperada();
+   public abstract Tarjeta prepararTarjetaEsperada();
    
    public void testRetirar100()
    {
@@ -21,9 +24,6 @@ class TarjetaTester1 extends TestCase {
    }
 	
 
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
+	
 
 }
