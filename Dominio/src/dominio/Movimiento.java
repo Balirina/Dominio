@@ -46,7 +46,7 @@ public class Movimiento {
 
 	}
 	
-	/**
+	/** Metodo que te da la fecha y 
 	 * author Nerea
 	 */
 	public Date getFecha()

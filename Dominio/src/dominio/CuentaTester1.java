@@ -10,7 +10,7 @@ class CuentaTester1 extends TestCase
 	Cuenta cuenta;
 	
 
-	/**
+	/**Metodo que procede de TestCase que 
 	 * @author Nerea
 	 */
 	public CuentaTester1(String TestName)

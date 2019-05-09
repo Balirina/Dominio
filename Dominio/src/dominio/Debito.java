@@ -30,6 +30,7 @@ import java.util.Date;
 	}
 	/** Metodo que ingresa el dinero en la cuenta
 	 * @uthor Nerea
+	 * throws 
 	 */
 	
 	public void ingresar(double x) throws Exception

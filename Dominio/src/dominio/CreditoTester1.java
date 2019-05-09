@@ -20,6 +20,7 @@ public class CreditoTester1 extends TestCase
 	
      /**
       * @author Nerea
+      * t
       */
 	public void setUp()throws Exception
 	{

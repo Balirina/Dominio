@@ -94,7 +94,7 @@ public class Credito extends Tarjeta {
 		return mCredito-getSaldo();
 	}
 
-	/**
+	/** Metodo que 
 	 * @author nerea
 	 *
 	 */
