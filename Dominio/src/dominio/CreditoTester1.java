@@ -4,6 +4,11 @@ import java.sql.Date;
 
 import junit.framework.TestCase;
 
+/**
+ * Pruebas de la clase Credito
+ * @author Win10_Irina_2018
+ *
+ */
 public class CreditoTester1 extends TestCase
 {
 	Credito tarjeta;
