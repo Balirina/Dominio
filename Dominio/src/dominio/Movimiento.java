@@ -46,14 +46,15 @@ public class Movimiento {
 
 	}
 	
-	/** Metodo que te da la fecha y 
+	/** Metodo que te devuelve la fecha en la que has realizado cierto movimiento 
 	 * author Nerea
+	 * @return Devuelve la fecha en la que has realizado el movimiento
 	 */
 	public Date getFecha()
 	{
 		return mFecha;
 	}
-	/**
+	/** Metodo que inserta una nueva fecha cuando haces cualquier movimiento
 	 * author  Nerea
 	 */
 	
@@ -61,7 +62,7 @@ public class Movimiento {
 	{
 		mFecha= newMFecha;
 	}
-	/**
+	/** Metodo que i
 	 * author Nerea
 	 */
 	

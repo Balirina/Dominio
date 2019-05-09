@@ -19,7 +19,6 @@ import java.util.Date;
 		super(numero,titular,fechaCaducidad);
 	}
 
-
 	/**
 	 * @author Balirina
 	 */
@@ -28,9 +27,10 @@ import java.util.Date;
 		this.mCuentaAsociada.retirar("Retirada en cajero automatico",x);
 
 	}
-	/** Metodo que ingresa el dinero en la cuenta
+	/** Metodo que ingresa el dinero en la cuenta asociada a la tarjeta
 	 * @uthor Nerea
-	 * throws 
+	 * @param x Parametro con el dinero que se ingresa
+	 * @throws Exception que se realiza si no se ingresa ninguna cantidad a la cuenta
 	 */
 	
 	public void ingresar(double x) throws Exception
@@ -38,8 +38,11 @@ import java.util.Date;
 		this.mCuentaAsociada.retirar("Ingreso en cajero automatico", x);
 	}
 	
-	/**Metodo que 
+	/**Metodo que realiza los pagos en establecimiento
 	 * @author Nerea
+	 * @param datos que se obtienen en el estabelcimiento
+	 * @param x e
+	 * @throws Excepcion que se realiza si no se realiza ningun pago en establecimiento
 	 */
 	public void pagoEnEstablecimiento (String datos, double x)throws Exception
 	{
@@ -47,7 +50,7 @@ import java.util.Date;
 		this.mCuentaAsociada.retirar("Compra en:"+ datos,x);
 	}
 	
-	/**Metodo que te 
+	/**Metodo que devuelven el saldo 
 	 * @author Nerea
 	 */
 	public  double getSaldo()
