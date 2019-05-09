@@ -20,7 +20,6 @@ import java.util.Date;
 	}
 
 
-
 	/**
 	 * @author Balirina
 	 */
@@ -29,7 +28,7 @@ import java.util.Date;
 		this.mCuentaAsociada.retirar("Retirada en cajero automatico",x);
 
 	}
-	/**
+	/** Metodo que ingresa el dinero en la cuenta
 	 * @uthor Nerea
 	 */
 	
@@ -38,7 +37,7 @@ import java.util.Date;
 		this.mCuentaAsociada.retirar("Ingreso en cajero automatico", x);
 	}
 	
-	/**
+	/**Metodo que 
 	 * @author Nerea
 	 */
 	public void pagoEnEstablecimiento (String datos, double x)throws Exception
@@ -47,7 +46,7 @@ import java.util.Date;
 		this.mCuentaAsociada.retirar("Compra en:"+ datos,x);
 	}
 	
-	/**
+	/**Metodo que te 
 	 * @author Nerea
 	 */
 	public  double getSaldo()

@@ -8,8 +8,11 @@ public abstract class Tarjeta {
 	protected Date mFechaDeCaducidad;
 	protected Cuenta mCuentaAsociada;
 	
-	/**
+	/**Contructor que recibe el numero, el titular y la fecha de caducidad de la tarjeta
 	 * @author Nerea
+	 * @param numero de la tarjeta
+	 * @param titular de la tarjeta
+	 * @param fechaCaducidad de la tarjeta
 	 */
 	public Tarjeta (String numero, String titular, Date fechaCaducidad)
 	{

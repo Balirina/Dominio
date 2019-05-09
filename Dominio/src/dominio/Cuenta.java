@@ -82,6 +82,8 @@ public class Cuenta {
 	}
 	
 	/**
+	 * Metodo devuelve el saldo de la cuenta
+	 * @param r 
 	 * @author Nerea
 	 */
 	public double getSaldo()
@@ -96,7 +98,8 @@ public class Cuenta {
 		return r;
 	}
 	
-	/**
+	/**Metodo que añade los movimientos que se realizan en la cuenta
+	 * @param m
 	 * @author Nerea
 	 */
 	public void addMovimiento(Movimiento m)

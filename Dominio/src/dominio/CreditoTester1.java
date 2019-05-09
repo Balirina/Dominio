@@ -9,7 +9,7 @@ public class CreditoTester1 extends TestCase
 	Credito tarjeta;
 	Cuenta cuenta;
 
-/**
+/** Contructor que recibe TestName
  * @author Nerea
  */
      public CreditoTester1(String TestName)
