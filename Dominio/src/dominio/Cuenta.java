@@ -98,7 +98,7 @@ public class Cuenta {
 		this.mMovimientos.addElement(m);
 	}
 	
-	/**Metodo devuelve el saldo de  la cuenta
+	/**Metodo devuelve el saldo de  la cuenta.
 	 * @author Nerea
 	 */
 	public double getSaldo()
@@ -113,8 +113,8 @@ public class Cuenta {
 		return r;
 	}
 	
-	/**Metodo que añade los movimientos que se realizan en la cuenta
-	 * @param m Parametro con el dinero que se añade a la cuenta
+	/**Metodo que añade los movimientos que se realizan en la cuenta.
+	 * @param m Parametro con el dinero que se añade a la cuenta.
 	 * @author Nerea
 	 */
 	public void addMovimiento(Movimiento m)
