@@ -46,7 +46,7 @@ public class Movimiento {
 
 	}
 	
-	/** Metodo que te devuelve la fecha en la que has realizado movimientos
+	/** Metodo que te devuelve la fecha en la que se han  realizado movimientos
 	 * author Nerea
 	 * @return Devuelve la fecha en la que has realizado el movimiento
 	 */

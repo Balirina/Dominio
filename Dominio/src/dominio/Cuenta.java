@@ -81,7 +81,7 @@ public class Cuenta {
 		this.mMovimientos.addElement(m);
 	}
 	
-	/**Metodo devuelve el saldo de la cuenta
+	/**Metodo devuelve el saldo de  la cuenta
 	 * @author Nerea
 	 */
 	public double getSaldo()

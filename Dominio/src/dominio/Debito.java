@@ -39,6 +39,7 @@ import java.util.Date;
 	}
 	
 	/**Metodo que realiza el nombre del establecimiento
+	 * @author Nerea
 	 * @param x Parametro del nombre de los establecimientos en los que pagas
 	 * @throws Excepcion que se realiza si no se realiza ningun pago en establecimiento
 	 */

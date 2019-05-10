@@ -18,9 +18,9 @@ class CuentaTester1 extends TestCase
 		super(TestName);
 	}
 	
-	/**
+	/** Metodo que crea una nueva cuenta con el numero de cuenta y el nombre de la persona
 	 * @author Nerea
-	 * @throws 
+	 * @throws Exception que se realiza si no se crea una nueva cuenta
 	 */
 	
 	public void setUp() throws Exception
