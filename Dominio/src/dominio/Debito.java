@@ -38,10 +38,8 @@ import java.util.Date;
 		this.mCuentaAsociada.retirar("Ingreso en cajero automatico", x);
 	}
 	
-	/**Metodo que realiza los pagos en establecimiento
-	 * @author Nerea
-	 * @param datos que se obtienen en el estabelcimiento
-	 * @param x e
+	/**Metodo que realiza el nombre del establecimiento
+	 * @param x Parametro del nombre de los establecimientos en los que pagas
 	 * @throws Excepcion que se realiza si no se realiza ningun pago en establecimiento
 	 */
 	public void pagoEnEstablecimiento (String datos, double x)throws Exception
@@ -50,7 +48,7 @@ import java.util.Date;
 		this.mCuentaAsociada.retirar("Compra en:"+ datos,x);
 	}
 	
-	/**Metodo que devuelven el saldo 
+	/**Metodo que devuelven el saldo de la tarjeta de debito
 	 * @author Nerea
 	 */
 	public  double getSaldo()

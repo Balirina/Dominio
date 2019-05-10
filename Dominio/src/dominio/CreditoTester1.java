@@ -9,7 +9,7 @@ public class CreditoTester1 extends TestCase
 	Credito tarjeta;
 	Cuenta cuenta;
 
-/** Contructor que recibe TestName
+/** Contructor que recibe todos los atributos del  TestCase
  * @author Nerea
  */
      public CreditoTester1(String TestName)
@@ -18,9 +18,10 @@ public class CreditoTester1 extends TestCase
 	}
 	
 	
-     /**
+     /** Metodo que crea una nueva cuenta, con el numero cuenta y en nombre de la persona, donde ingresa 1000€,
+      * con fecha de hoy, que caduca en 4 años y consigue una nueva tarjeta de credito con 1000€
       * @author Nerea
-      * t
+      * 
       */
 	public void setUp()throws Exception
 	{

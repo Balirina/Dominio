@@ -46,7 +46,7 @@ public class Movimiento {
 
 	}
 	
-	/** Metodo que te devuelve la fecha en la que has realizado cierto movimiento 
+	/** Metodo que te devuelve la fecha en la que has realizado movimientos
 	 * author Nerea
 	 * @return Devuelve la fecha en la que has realizado el movimiento
 	 */
@@ -62,7 +62,7 @@ public class Movimiento {
 	{
 		mFecha= newMFecha;
 	}
-	/** Metodo que i
+	/** Metodo que inserta un nuevo importe de los movimientos que se realizan
 	 * author Nerea
 	 */
 	

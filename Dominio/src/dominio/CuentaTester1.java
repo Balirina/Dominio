@@ -20,6 +20,7 @@ class CuentaTester1 extends TestCase
 	
 	/**
 	 * @author Nerea
+	 * @throws 
 	 */
 	
 	public void setUp() throws Exception

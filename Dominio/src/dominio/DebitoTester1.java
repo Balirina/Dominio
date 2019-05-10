@@ -12,7 +12,6 @@ class DebitoTester1  extends TestCase{
 	Debito debito;
 	Cuenta cuenta;
 	
-	
 	/**
 	 * @author Balirina
 	 */
