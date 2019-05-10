@@ -3,6 +3,12 @@ package dominio;
 
 import java.util.Date;
 
+/**
+ * Clase abstracta para crear una tarjeta
+ * las clases hijas tienem que emplementar todos los metodos
+ * @author Win10_Irina_2018
+ *
+ */
 public abstract class Tarjeta {
 	protected String mNumero, mTitular;
 	protected Date mFechaDeCaducidad;
@@ -22,6 +28,8 @@ public abstract class Tarjeta {
 	}
 	
 	/**
+	 * Metodo que sobreescribe la cuenta asociada a esta tarjeta
+	 * @param nueva cuenta
 	 * @author Balirina
 	 */
 	public void setCuenta(Cuenta c)

@@ -2,6 +2,11 @@ package dominio;
 
 import java.util.Date;
 
+/**
+ * Clase para crear los movimientos de una cuenta bancaria
+ * @author Win10_Irina_2018
+ *
+ */
 public class Movimiento {
 	
 	protected String mConcepto;
@@ -30,7 +35,9 @@ public class Movimiento {
 
 
 	/**
+	 * metodo que devuelve el concepto del movimiento
 	 * @author Balirina
+	 * @return el concepto
 	 */
 	public String getConcepto()
 	{
@@ -38,7 +45,9 @@ public class Movimiento {
 	}
 	
 	/**
+	 * Metodo que sobreescribe el movimiento con el parametro que recibe el metodo
 	 * @author Balirina
+	 * @param nuevo concepto
 	 */
 	public void setConcepto(String newMConcepto)
 	{

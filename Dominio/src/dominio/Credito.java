@@ -62,6 +62,10 @@ public class Credito extends Tarjeta {
 		mCuentaAsociada.ingresar(x);
 	}
 	/**
+	 * metodo que crea un pago 
+	 * guardando los datos en el concepto del movimiento 
+	 * y la cantidad de dinero en el importe
+	 * @param los datos, la cantidad de dinero
 	 * @author Balirina
 	 */
 	public void pagoEnEstablecimiento(String datos, double x) throws Exception
@@ -73,6 +77,7 @@ public class Credito extends Tarjeta {
 	}
 	
 	/**
+	 * metodo que devuelve el saldo total de la cuenta
 	 * @author Balirina
 	 */
 	public double getSaldo()
@@ -87,6 +92,7 @@ public class Credito extends Tarjeta {
 	}
 	
 	/**
+	 * Metodo que calcula y devuelve el credito disponible
 	 * @author Balirina
 	 */
 	public double getCreditoDisponible()

@@ -2,6 +2,12 @@ package dominio;
 import java.util.Vector;
 	
 
+/**
+ * Clase para crear una cuenta bancaria 
+ * en la cual se guarda el numero de cuenta, el titulario y todos los movimientos
+ * @author Win10_Irina_2018
+ *
+ */
 public class Cuenta {
 	
 	protected String mNumero;
@@ -39,6 +45,9 @@ public class Cuenta {
 
 	
 	/**
+	 * Metodo para retirar dinero de la cuenta
+	 * @param la cantidad de dinero que se quiere retirar
+	 * @throws lanza una exception si el saldo es negativo
 	 * @author Balirina
 	 */
 	public void retirar(double x) throws Exception
@@ -54,6 +63,10 @@ public class Cuenta {
 	}
 	
 	/**
+	 * Metodo para ingresar dinero en la cuenta 
+	 * guarda tambien una informacion del dicho ingreso
+	 * @param la informacion, la cantidad de dinero
+	 * @throws lanza una exception cuando se quiere ingresar una cantidad negativa
 	 * @author Balirina
 	 */
 	public void ingresar(String concepto, double x) throws Exception
@@ -67,12 +80,16 @@ public class Cuenta {
 	}
 	
 	/**
+	 * Metodo para retirar dinero de la cuenta 
+	 * guarda tambien una informacion del dicho movimiento
+	 * @param la informacion, la cantidad de dinero
+	 * @throws lanza una exception cuando se quiere ingresar una cantidad negativa
 	 * @author Balirina
 	 */
 	public void retirar(String concepto, double x) throws Exception
 	{
 		if(x<=0)
-			throw new Exception("No se puede ingresar una cantidad negativa");
+			throw new Exception("No se puede retirar una cantidad negativa");
 		if(getSaldo()<x)
 			throw new Exception("Saldo insuficiente");
 		Movimiento m=new Movimiento();

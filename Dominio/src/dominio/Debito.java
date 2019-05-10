@@ -20,6 +20,9 @@ import java.util.Date;
 	}
 
 	/**
+	 * 	 * Metodo para retirar dinero de la cuenta 
+	 * guarda tambien una informacion del dicho movimiento
+	 * @param la cantidad de dinero
 	 * @author Balirina
 	 */
 	public void retirar(double x) throws Exception

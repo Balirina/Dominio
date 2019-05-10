@@ -54,5 +54,19 @@ class CuentaTester1 extends TestCase
 		
 
 	}
+	
+	/**
+	 * Test del metodo IngresoYRetirada de la clase cuenta
+	 * @author Aitor
+	 */
+	public void testIngresoYRetirada()
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		junit.swingui.TestRunner.run(CuentaTester1.class);
+	}
 
 }
