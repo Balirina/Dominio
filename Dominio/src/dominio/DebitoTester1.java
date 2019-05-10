@@ -35,5 +35,28 @@ class DebitoTester1  extends TestCase{
 		debito.setCuenta(cuenta);
 		
 	}
+	
+	/**
+	 * 
+	 * @author Aitor
+	 */
+	public void tearDown() throws Exception
+	{
+		
+	}
+	
+	/**
+	 * Test del metodo retirar1000
+	 * @author Aitor
+	 */
+	public void testRetirar1000()
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		junit.swingui.TestRunner.run(DebitoTester1.class);
+	}
 
 }
